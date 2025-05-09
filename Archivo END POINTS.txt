@@ -1,0 +1,27 @@
+# ENDPOINTS DE LA API – Registro e Inicio de Sesión
+
+Base URL: http://localhost:3000
+
+---
+
+1. Registro de usuario
+- Método: POST
+- Endpoint: /api/register
+- Descripción: Registra un nuevo usuario y guarda su información en un archivo JSON.
+- Cuerpo (Body - JSON):
+  {
+    "username": "usuario2",
+    "password": "clave123"
+  }
+
+---
+
+2. Inicio de sesión
+- Método: POST
+- Endpoint: /api/login
+- Descripción: Verifica que el usuario y contraseña sean correctos. Devuelve un mensaje de éxito o error.
+- Cuerpo (Body - JSON):
+  {
+    "username": "usuario2",
+    "password": "clave123"
+  }
